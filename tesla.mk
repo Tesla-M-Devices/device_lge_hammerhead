@@ -22,7 +22,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit device configuration
-$(call inherit-product, device/lge/hammerhead/aosp_hammerhead.mk)
+$(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
