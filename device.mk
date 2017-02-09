@@ -159,17 +159,15 @@ PRODUCT_COPY_FILES += \
     device/lge/hammerhead/audio_platform_info.xml:system/etc/audio_platform_info.xml \
     device/lge/hammerhead/mixer_paths.xml:system/etc/mixer_paths.xml
 
-## Snap Camera
-PRODUCT_PACKAGES += \
-    Snap
-
+# Camera
 PRODUCT_PACKAGES += \
     libqomx_core \
     libmmcamera_interface \
     libmmjpeg_interface \
     camera.hammerhead \
     mm-jpeg-interface-test \
-    mm-qcamera-app
+    mm-qcamera-app \
+    Camera2
 
 PRODUCT_PACKAGES += \
     keystore.msm8974

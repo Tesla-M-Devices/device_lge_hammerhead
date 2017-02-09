@@ -25,14 +25,15 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Tesla stuff.
+$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/caf_fw.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 PRODUCT_DEVICE := hammerhead
-PRODUCT_NAME := slim_hammerhead
+PRODUCT_NAME := tesla_hammerhead
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE

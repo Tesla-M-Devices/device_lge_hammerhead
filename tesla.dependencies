@@ -1,0 +1,13 @@
+[
+  {
+    "repository":  "SlimRoms/kernel_lge_hammerhead",
+    "target_path": "kernel/lge/hammerhead",
+    "branch":      "ng7.1"
+  },
+  {
+    "repository": "TheLoonyBin/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "ng7.1"
+  }
+]
+
